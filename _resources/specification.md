@@ -17,14 +17,14 @@ This is based on the work done by [BetaNYC](https://github.com/BetaNYC/civic.jso
 ## Key/Value Pairs
 2. `status` - text indicating the status of the project.  Any text is allowed, but a selection from the recommended values is advised:
   * `"Ideation"` - Brainstorming phase
-  * `"Alpha"` - Brainstorming phase
-  * `"Beta"` - Brainstorming phase
+  * `"Alpha"` - Prototype or internal testing version
+  * `"Beta"` - Initial or public testing version
   * `"Production"` - Finished Product, development ongoing
-  * `"Archival"` - Finished Product, development ongoing
+  * `"Archival"` - No longer used, maintained, or developed
 
 3. `thumbnailUrl` - a URL to an image associated with the project listing.
 
-4. `contact` - an object containing `name`, `email`, and `twitter` objects, with each representing the preferred contact information for the project.
+4. `contact` - an object containing `name`, `email`, and `twitter` keys, with each representing the preferred contact information for the project.
 
 5. `bornAt` - text indicating the name of the event the project was conceived at, if any.  Any text is allowed.
 
